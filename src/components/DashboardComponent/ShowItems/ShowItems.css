@@ -1,0 +1,10 @@
+.file-folder-show{
+    border: 1px solid gray;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    background-color: #dbd3d8;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}

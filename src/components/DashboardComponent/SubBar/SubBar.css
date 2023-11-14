@@ -1,0 +1,88 @@
+/* .subbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+ol,ul {
+    margin: 2rem;
+} */
+
+.subbar{
+    width: 100vw;
+    margin-left: 0.25rem;
+}
+.sub-navbar {
+    margin-top: 2.4rem;
+    margin-right: 3rem;  
+    height: 80px;
+    background-color: #e5fcf5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(191, 12, 12, 0.19);
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    border-radius: 0.5rem;
+    max-width: 1130px;
+    width: 50vw;
+}
+.backbtn{
+    margin-right: 2rem; 
+}
+li{
+    list-style: none;
+    padding: 5xp;
+}
+.path{
+    margin-left: 2rem;
+}
+
+.file-folder{
+    width: 50vw;
+    margin-right: 1rem;
+}
+
+@media only screen and (max-width: 1250px) {
+    .sub-navbar{
+        width: 60vw;
+    }
+    .file-folder{
+        width: 60vw;
+    }
+  }
+  
+  @media only screen and (max-width: 1100px) {
+    .sub-navbar{
+        width: 56vw;
+    }
+    .file-folder{
+        width: 56vw;
+    }
+  }
+  @media only screen and (max-width: 980px) {
+    .sub-navbar{
+        width: 50vw;
+    }
+    .file-folder{
+        width: 50vw;
+    }
+  }
+  @media only screen and (max-width: 830px) {
+    .sub-navbar{
+        width: 45vw;
+    }
+    .file-folder{
+        width: 45vw;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .sub-navbar{
+       width: 90vw;
+       margin: 2rem auto auto auto;
+    }
+    .file-folder{
+        width: 88vw;
+        margin: auto;
+    }
+  }
