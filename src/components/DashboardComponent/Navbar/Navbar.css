@@ -19,7 +19,8 @@
     margin-left: 2rem;
   }
   .logo>.img>img{
-    width: 250px;
+    width: 180px;
+    height: 54px;
   }
   .logo>p{
     display: none;
